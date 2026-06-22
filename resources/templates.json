@@ -1,0 +1,111 @@
+{
+    "secciones_kodi": [
+        {
+            "name": "Movies",
+            "path": "ActivateWindow(Videos,MovieTitles)",
+            "icon": "DefaultMovies.png"
+        },
+        {
+            "name": "TV Shows",
+            "path": "ActivateWindow(Videos,TVShowTitles)",
+            "icon": "DefaultTVShows.png"
+        },
+        {
+            "name": "Home",
+            "path": "ActivateWindow(Home)",
+            "icon": "DefaultHome.png"
+        },
+        {
+            "name": "Live TV (PVR)",
+            "path": "ActivateWindow(TVChannels)",
+            "icon": "DefaultLiveTV.png"
+        },
+        {
+            "name": "TV Guide (EPG)",
+            "path": "ActivateWindow(TVGuide)",
+            "icon": "DefaultEPG.png"
+        },
+        {
+            "name": "Radio",
+            "path": "ActivateWindow(Radio)",
+            "icon": "DefaultRadio.png"
+        },
+        {
+            "name": "Music",
+            "path": "ActivateWindow(Music)",
+            "icon": "DefaultMusic.png"
+        },
+        {
+            "name": "Music Videos",
+            "path": "ActivateWindow(Videos,MusicVideoTitles)",
+            "icon": "DefaultMusicVideos.png"
+        },
+        {
+            "name": "Weather",
+            "path": "ActivateWindow(Weather)",
+            "icon": "DefaultWeather.png"
+        },
+        {
+            "name": "Pictures",
+            "path": "ActivateWindow(Pictures)",
+            "icon": "DefaultPicture.png"
+        },
+        {
+            "name": "Settings",
+            "path": "ActivateWindow(Settings)",
+            "icon": "DefaultIconSettings.png"
+        },
+        {
+            "name": "File Manager",
+            "path": "ActivateWindow(FileManager)",
+            "icon": "DefaultFile.png"
+        },
+        {
+            "name": "System Info",
+            "path": "ActivateWindow(SystemInfo)",
+            "icon": "DefaultIconInfo.png"
+        },
+        {
+            "name": "Event Log",
+            "path": "ActivateWindow(EventLog)",
+            "icon": "DefaultIconInfo.png"
+        },
+        {
+            "name": "Addons (Browser)",
+            "path": "ActivateWindow(AddonBrowser)",
+            "icon": "DefaultAddon.png"
+        }
+    ],
+    "comandos_sistema": [
+        {
+            "name": "Power / Restart Menu",
+            "path": "ActivateWindow(ShutdownMenu)",
+            "icon": "DefaultIconPower.png"
+        },
+        {
+            "name": "Update Library (Video)",
+            "path": "RunPlugin(plugin://plugin.program.flowfavmanager/execute?cmd=UpdateLibrary%28video%29)",
+            "icon": "DefaultAddonsUpdates.png"
+        },
+        {
+            "name": "Clean Library (Video)",
+            "path": "RunPlugin(plugin://plugin.program.flowfavmanager/execute?cmd=CleanLibrary%28video%29)",
+            "icon": "DefaultAddonsUpdates.png"
+        },
+        {
+            "name": "Reload Skin",
+            "path": "RunPlugin(plugin://plugin.program.flowfavmanager/execute?cmd=ReloadSkin%28%29)",
+            "icon": "DefaultAddon.png"
+        },
+        {
+            "name": "Skin Settings",
+            "path": "ActivateWindow(SkinSettings)",
+            "icon": "DefaultAddon.png"
+        },
+        {
+            "name": "File Manager",
+            "path": "ActivateWindow(FileManager)",
+            "icon": "DefaultFile.png"
+        }
+    ]
+}

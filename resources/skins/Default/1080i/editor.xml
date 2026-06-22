@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <defaultcontrol>101</defaultcontrol>
+    <coordinates>
+        <system>1</system>
+        <left>0</left>
+        <top>0</top>
+    </coordinates>
+    <controls>
+        <!-- ======================= -->
+        <!-- FONDO Y DISEÑO COMÚN    -->
+        <!-- ======================= -->
+        <control type="image">
+            <width>1920</width>
+            <height>1080</height>
+            <texture colordiffuse="$INFO[Skin.String(FavEdit_color_bg)]">panel_bg.png</texture>
+        </control>
+        <!-- CABECERA ELIMINADA PARA GANAR ESPACIO
+        <control type="image">
+            <height>80</height>
+            <width>1920</width>
+            <texture colordiffuse="$INFO[Skin.String(FavEdit_color_bg_top)]">panel_bg.png</texture>
+        </control>
+        <control type="label">
+            <left>30</left>
+            <height>80</height>
+            <font>font30</font>
+            <textcolor>FFFFFFFF</textcolor>
+            <label>Flow FavManager</label>
+            <aligny>center</aligny>
+        </control>
+        <control type="label">
+            <left>400</left>
+            <height>80</height>
+            <font>font30</font>
+            <textcolor>FF00BFFF</textcolor>
+            <label>*</label>
+            <aligny>center</aligny>
+            <visible>String.IsEqual(Window.Property(UnsavedChanges),true)</visible>
+        </control>
+        -->
+
+        <!-- Sidebar -->
+        <control type="image">
+            <right>0</right><top>0</top><width>400</width><bottom>0</bottom>
+            <texture colordiffuse="FF181818">panel_bg.png</texture>
+        </control>
+        <control type="group">
+            <right>20</right><top>20</top><width>360</width>
+            <control type="grouplist" id="9000">
+                <visible>String.IsEmpty(Window.Property(multiselect_active))</visible>
+                <width>360</width><height>900</height><itemgap>20</itemgap>
+                <onleft>101</onleft>
+                <onright>noop</onright>
+                <control type="button" id="301">
+                    <label>[B]$ADDON[plugin.program.flowfavmanager 30435][/B]</label>
+                    <height>50</height><width>360</width><align>center</align>
+                    <!-- Color cambia a Azul si hay cambios sin guardar -->
+                    <textcolor>FFFFFFFF</textcolor>
+                    <focusedcolor>FF000000</focusedcolor>
+                    <texturefocus colordiffuse="FFFFFFFF">panel_bg.png</texturefocus>
+                    <texturenofocus colordiffuse="40FFFFFF">panel_bg.png</texturenofocus>
+                    <visible>String.IsEmpty(Window.Property(UnsavedChanges))</visible>
+                </control>
+                <control type="button" id="3001">
+                    <label>[B]$ADDON[plugin.program.flowfavmanager 30436][/B]</label>
+                    <height>50</height><width>360</width><align>center</align>
+                    <textcolor>FF00BFFF</textcolor> <!-- Azul DeepSkyBlue -->
+                    <focusedcolor>FF000000</focusedcolor>
+                    <texturefocus colordiffuse="FF00BFFF">panel_bg.png</texturefocus>
+                    <texturenofocus colordiffuse="40FFFFFF">panel_bg.png</texturenofocus>
+                    <visible>!String.IsEmpty(Window.Property(UnsavedChanges))</visible>
+                </control>
+                <control type="button" id="305">
+                    <label>[B]$ADDON[plugin.program.flowfavmanager 30437][/B]</label>
+                    <height>50</height><width>360</width><align>center</align>
+                    <textcolor>FFFFFFFF</textcolor><focusedcolor>FF000000</focusedcolor>
+                    <texturefocus colordiffuse="FFFFFFFF">panel_bg.png</texturefocus>
+                    <texturenofocus colordiffuse="40FFFFFF">panel_bg.png</texturenofocus>
+                </control>
+                <control type="button" id="308">
+                    <label>[B]$ADDON[plugin.program.flowfavmanager 30438][/B]</label>
+                    <height>50</height><width>360</width><align>center</align>
+                    <textcolor>FFFFFFFF</textcolor><focusedcolor>FF000000</focusedcolor>
+                    <texturefocus colordiffuse="FFFFFFFF">panel_bg.png</texturefocus>
+                    <texturenofocus colordiffuse="40FFFFFF">panel_bg.png</texturenofocus>
+                </control>
+                <control type="button" id="315">
+                    <label>$INFO[Window.Property(flow_action_label)]</label>
+                    <height>50</height><width>360</width><align>center</align>
+                    <textcolor>FFFFFFFF</textcolor><focusedcolor>FF000000</focusedcolor>
+                    <texturefocus colordiffuse="FFFFFFFF">panel_bg.png</texturefocus>
+                    <texturenofocus colordiffuse="40FFFFFF">panel_bg.png</texturenofocus>
+                </control>
+                <control type="button" id="302">
+                    <label>[B]$ADDON[plugin.program.flowfavmanager 30439][/B]</label>
+                    <height>50</height><width>360</width><align>center</align>
+                    <textcolor>FFFFFFFF</textcolor><focusedcolor>FF000000</focusedcolor>
+                    <texturefocus colordiffuse="FFFFFFFF">panel_bg.png</texturefocus>
+                    <texturenofocus colordiffuse="40FFFFFF">panel_bg.png</texturenofocus>
+                </control>
+
+                <control type="button" id="309">
+                    <label>[B]$ADDON[plugin.program.flowfavmanager 30440][/B]</label>
+                    <height>50</height><width>360</width><align>center</align>
+                    <textcolor>FFFFFFFF</textcolor><focusedcolor>FF000000</focusedcolor>
+                    <texturefocus colordiffuse="FFFFFFFF">panel_bg.png</texturefocus>
+                    <texturenofocus colordiffuse="40FFFFFF">panel_bg.png</texturenofocus>
+                </control>
+                <control type="button" id="310">
+                    <label>[B]$ADDON[plugin.program.flowfavmanager 30441][/B]</label>
+                    <height>50</height><width>360</width><align>center</align>
+                    <textcolor>FFFFFFFF</textcolor><focusedcolor>FF000000</focusedcolor>
+                    <texturefocus colordiffuse="FFFFFFFF">panel_bg.png</texturefocus>
+                    <texturenofocus colordiffuse="40FFFFFF">panel_bg.png</texturenofocus>
+                </control>
+                <!-- Botón 'Salir sin Guardar' eliminado (integrado en menú Guardar) -->
+                <control type="button" id="303">
+                    <label>[B]$ADDON[plugin.program.flowfavmanager 30442][/B]</label>
+                    <height>50</height><width>360</width><align>center</align>
+                    <textcolor>FFFFFFFF</textcolor><focusedcolor>FF000000</focusedcolor>
+                    <texturefocus colordiffuse="FFFFFFFF">panel_bg.png</texturefocus>
+                    <texturenofocus colordiffuse="40FFFFFF">panel_bg.png</texturenofocus>
+                </control>
+                <control type="button" id="304">
+                    <label>[B]$ADDON[plugin.program.flowfavmanager 30443][/B]</label>
+                    <height>50</height><width>360</width><align>center</align>
+                    <textcolor>FFFFFFFF</textcolor><focusedcolor>FF000000</focusedcolor>
+                    <texturefocus colordiffuse="FFFFFFFF">panel_bg.png</texturefocus>
+                    <texturenofocus colordiffuse="40FFFFFF">panel_bg.png</texturenofocus>
+                </control>
+            </control>
+
+            <!-- MENU MULTISELECCION -->
+            <control type="grouplist">
+                <visible>!String.IsEmpty(Window.Property(multiselect_active))</visible>
+                <width>360</width><height>900</height><itemgap>20</itemgap>
+                <onleft>101</onleft>
+                <onright>101</onright>
+                
+                <control type="label">
+                    <label>[B]$ADDON[plugin.program.flowfavmanager 30448][/B]</label>
+                    <height>40</height><align>center</align><textcolor>gold</textcolor>
+                </control>
+
+                <control type="button" id="351">
+                    <label>[B]$ADDON[plugin.program.flowfavmanager 30444][/B]</label>
+                    <height>60</height><width>360</width><align>center</align>
+                    <textcolor>FFFFFFFF</textcolor><focusedcolor>FF000000</focusedcolor>
+                    <texturefocus colordiffuse="green">panel_bg.png</texturefocus>
+                    <texturenofocus colordiffuse="40FFFFFF">panel_bg.png</texturenofocus>
+                </control>
+
+                <control type="button" id="352">
+                    <label>[B]$ADDON[plugin.program.flowfavmanager 30445][/B]</label>
+                    <height>50</height><width>360</width><align>center</align>
+                    <textcolor>FFFFFFFF</textcolor><focusedcolor>FF000000</focusedcolor>
+                    <texturefocus colordiffuse="FFFFFFFF">panel_bg.png</texturefocus>
+                    <texturenofocus colordiffuse="40FFFFFF">panel_bg.png</texturenofocus>
+                </control>
+
+                <control type="button" id="353">
+                    <label>[B]$ADDON[plugin.program.flowfavmanager 30446][/B]</label>
+                    <height>50</height><width>360</width><align>center</align>
+                    <textcolor>FFFFFFFF</textcolor><focusedcolor>FF000000</focusedcolor>
+                    <texturefocus colordiffuse="red">panel_bg.png</texturefocus>
+                    <texturenofocus colordiffuse="40FFFFFF">panel_bg.png</texturenofocus>
+                </control>
+
+                <control type="button" id="354">
+                    <label>[B]$ADDON[plugin.program.flowfavmanager 30490][/B]</label>
+                    <height>50</height><width>360</width><align>center</align>
+                    <textcolor>FFFFFFFF</textcolor><focusedcolor>FF000000</focusedcolor>
+                    <texturefocus colordiffuse="blue">panel_bg.png</texturefocus>
+                    <texturenofocus colordiffuse="40FFFFFF">panel_bg.png</texturenofocus>
+                </control>
+
+                <control type="button" id="350">
+                    <label>[B]$ADDON[plugin.program.flowfavmanager 30447][/B]</label>
+                    <height>50</height><width>360</width><align>center</align>
+                    <textcolor>FFFFFFFF</textcolor><focusedcolor>FF000000</focusedcolor>
+                    <texturefocus colordiffuse="FFFFFFFF">panel_bg.png</texturefocus>
+                    <texturenofocus colordiffuse="40FFFFFF">panel_bg.png</texturenofocus>
+                </control>
+            </control>
+        </control>
+
+        <!-- Scrollbar común -->
+        <control type="scrollbar" id="200">
+            <right>405</right><top>100</top><width>10</width><bottom>30</bottom>
+            <onleft>101</onleft><onright>9000</onright>
+            <texturesliderbackground colordiffuse="10FFFFFF">panel_bg.png</texturesliderbackground>
+            <texturesliderbar colordiffuse="50FFFFFF">panel_bg.png</texturesliderbar>
+        </control>
+
+        <!-- ============================================== -->
+        <!-- VISTA 1: CUADRÍCULA GRANDE (ID 101)            -->
+        <!-- ============================================== -->
+        <control type="panel" id="101">
+            <visible>String.IsEqual(Window.Property(view_mode),0) | String.IsEmpty(Window.Property(view_mode))</visible>
+            <left>30</left><top>20</top><right>430</right><bottom>30</bottom>
+            <onright>9000</onright>
+            <pagecontrol>200</pagecontrol>
+            <orientation>vertical</orientation>
+            <itemlayout width="290" height="390">
+                <control type="image">
+                    <visible>String.IsEmpty(ListItem.Property(selected))</visible>
+                    <texture colordiffuse="20FFFFFF">panel_bg.png</texture><bordersize>5</bordersize>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(selected))</visible>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_selection_faded)]">panel_bg.png</texture><bordersize>5</bordersize>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(multiselected))</visible>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_multiselect)]">panel_bg.png</texture><bordersize>5</bordersize>
+                </control>
+                <control type="image">
+                    <height>290</height>
+                    <texture fallback="$INFO[Window.Property(addonIcon)]">$INFO[ListItem.Art(thumb)]</texture>
+                    <aspectratio>keep</aspectratio><bordersize>10</bordersize>
+                </control>
+                <control type="label">
+                    <top>300</top><width>270</width><height>80</height><left>10</left>
+                    <align>center</align><textcolor>FFFFFFFF</textcolor>
+                    <label>$INFO[ListItem.Label]</label>
+                </control>
+            </itemlayout>
+            <focusedlayout width="290" height="390">
+                <control type="image">
+                    <left>-5</left><top>-5</top><right>-5</right><bottom>-5</bottom>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_selection)]">panel_bg.png</texture><bordersize>2</bordersize>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(selected))</visible>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_selection_faded)]">panel_bg.png</texture><bordersize>5</bordersize>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(multiselected))</visible>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_multiselect)]">panel_bg.png</texture><bordersize>5</bordersize>
+                </control>
+                <control type="image">
+                    <height>290</height>
+                    <texture fallback="$INFO[Window.Property(addonIcon)]">$INFO[ListItem.Art(thumb)]</texture>
+                    <aspectratio>keep</aspectratio><bordersize>10</bordersize>
+                </control>
+                <control type="label">
+                    <top>300</top><width>270</width><height>80</height><left>10</left>
+                    <align>center</align><textcolor>FFFFFFFF</textcolor>
+                    <label>$INFO[ListItem.Label]</label>
+                </control>
+            </focusedlayout>
+        </control>
+
+        <!-- ============================================== -->
+        <!-- VISTA 2: CUADRÍCULA PEQUEÑA (ID 102)           -->
+        <!-- ============================================== -->
+        <control type="panel" id="102">
+            <visible>String.IsEqual(Window.Property(view_mode),1)</visible>
+            <left>30</left><top>20</top><right>430</right><bottom>30</bottom>
+            <onright>9000</onright>
+            <pagecontrol>200</pagecontrol>
+            <orientation>vertical</orientation>
+            <itemlayout width="290" height="240">
+                <control type="image">
+                    <visible>String.IsEmpty(ListItem.Property(selected))</visible>
+                    <texture colordiffuse="20FFFFFF">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(selected))</visible>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_selection_faded)]">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(multiselected))</visible>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_multiselect)]">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <height>145</height>
+                    <texture fallback="$INFO[Window.Property(addonIcon)]">$INFO[ListItem.Art(thumb)]</texture>
+                    <aspectratio>keep</aspectratio><bordersize>5</bordersize>
+                </control>
+                <control type="label">
+                    <top>150</top><width>270</width><height>80</height><left>10</left>
+                    <align>center</align><textcolor>FFFFFFFF</textcolor>
+                    <label>$INFO[ListItem.Label]</label>
+                </control>
+            </itemlayout>
+            <focusedlayout width="290" height="240">
+                <control type="image">
+                    <left>-5</left><top>-5</top><right>-5</right><bottom>-5</bottom>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_selection)]">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(selected))</visible>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_selection_faded)]">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(multiselected))</visible>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_multiselect)]">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <height>145</height>
+                    <texture fallback="$INFO[Window.Property(addonIcon)]">$INFO[ListItem.Art(thumb)]</texture>
+                    <aspectratio>keep</aspectratio><bordersize>5</bordersize>
+                </control>
+                <control type="label">
+                    <top>150</top><width>270</width><height>80</height><left>10</left>
+                    <align>center</align><textcolor>FFFFFFFF</textcolor>
+                    <label>$INFO[ListItem.Label]</label>
+                </control>
+            </focusedlayout>
+        </control>
+
+        <!-- ============================================== -->
+        <!-- VISTA 3: LISTA (ID 103)                        -->
+        <!-- ============================================== -->
+        <control type="list" id="103">
+            <visible>String.IsEqual(Window.Property(view_mode),2)</visible>
+            <left>30</left><top>20</top><right>430</right><bottom>30</bottom>
+            <onright>9000</onright>
+            <pagecontrol>200</pagecontrol>
+            <itemlayout height="70">
+                <control type="image">
+                    <visible>String.IsEmpty(ListItem.Property(selected))</visible>
+                    <width>100%</width><height>65</height>
+                    <texture colordiffuse="0DFFFFFF">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(selected))</visible>
+                    <width>100%</width><height>65</height>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_selection_faded)]">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(multiselected))</visible>
+                    <width>100%</width><height>65</height>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_multiselect)]">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <left>5</left><top>5</top><width>55</width><height>55</height>
+                    <texture fallback="$INFO[Window.Property(addonIcon)]">$INFO[ListItem.Art(thumb)]</texture>
+                    <aspectratio>keep</aspectratio>
+                </control>
+                <control type="label">
+                    <left>75</left><height>65</height><right>10</right>
+                    <textcolor>FFFFFFFF</textcolor><aligny>center</aligny>
+                    <font>$INFO[Skin.String(FavEdit_font_name)]</font>
+                    <label>$INFO[ListItem.Label]</label>
+                </control>
+            </itemlayout>
+            <focusedlayout height="70">
+                <control type="image">
+                    <width>100%</width><height>65</height>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_selection)]">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(selected))</visible>
+                    <left>2</left><top>2</top><right>2</right><bottom>2</bottom>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_selection_faded)]">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(multiselected))</visible>
+                    <left>2</left><top>2</top><right>2</right><bottom>2</bottom>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_multiselect)]">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <left>5</left><top>5</top><width>55</width><height>55</height>
+                    <texture fallback="$INFO[Window.Property(addonIcon)]">$INFO[ListItem.Art(thumb)]</texture>
+                    <aspectratio>keep</aspectratio>
+                </control>
+                <control type="label">
+                    <left>75</left><height>65</height><right>10</right>
+                    <textcolor>FF000000</textcolor><aligny>center</aligny>
+                    <font>$INFO[Skin.String(FavEdit_font_name)]</font>
+                    <label>$INFO[ListItem.Label]</label>
+                </control>
+            </focusedlayout>
+        </control>
+        
+        <!-- ============================================== -->
+        <!-- VISTA 4: LISTA GRANDE (ID 104)                 -->
+        <!-- ============================================== -->
+        <control type="list" id="104">
+            <visible>String.IsEqual(Window.Property(view_mode),3)</visible>
+            <left>30</left><top>20</top><right>430</right><bottom>30</bottom>
+            <onright>9000</onright>
+            <pagecontrol>200</pagecontrol>
+            <itemlayout height="100">
+                <control type="image">
+                    <visible>String.IsEmpty(ListItem.Property(selected))</visible>
+                    <width>100%</width><height>95</height>
+                    <texture colordiffuse="0DFFFFFF">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(selected))</visible>
+                    <width>100%</width><height>95</height>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_selection_faded)]">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(multiselected))</visible>
+                    <width>100%</width><height>95</height>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_multiselect)]">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <left>5</left><top>5</top><width>85</width><height>85</height>
+                    <texture fallback="$INFO[Window.Property(addonIcon)]">$INFO[ListItem.Art(thumb)]</texture>
+                    <aspectratio>keep</aspectratio>
+                </control>
+                <control type="label">
+                    <left>105</left><height>95</height><right>10</right>
+                    <textcolor>FFFFFFFF</textcolor><aligny>center</aligny>
+                    <font>$INFO[Skin.String(FavEdit_font_name)]</font>
+                    <label>$INFO[ListItem.Label]</label>
+                </control>
+            </itemlayout>
+            <focusedlayout height="100">
+                <control type="image">
+                    <width>100%</width><height>95</height>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_selection)]">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(selected))</visible>
+                    <left>2</left><top>2</top><right>2</right><bottom>2</bottom>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_selection_faded)]">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <visible>!String.IsEmpty(ListItem.Property(multiselected))</visible>
+                    <left>2</left><top>2</top><right>2</right><bottom>2</bottom>
+                    <texture colordiffuse="$INFO[Skin.String(FavEdit_color_multiselect)]">panel_bg.png</texture>
+                </control>
+                <control type="image">
+                    <left>5</left><top>5</top><width>85</width><height>85</height>
+                    <texture fallback="$INFO[Window.Property(addonIcon)]">$INFO[ListItem.Art(thumb)]</texture>
+                    <aspectratio>keep</aspectratio>
+                </control>
+                <control type="label">
+                    <left>105</left><height>95</height><right>10</right>
+                    <textcolor>FF000000</textcolor><aligny>center</aligny>
+                    <font>$INFO[Skin.String(FavEdit_font_name)]</font>
+                    <label>$INFO[ListItem.Label]</label>
+                </control>
+            </focusedlayout>
+        </control>
+
+    </controls>
+</window>

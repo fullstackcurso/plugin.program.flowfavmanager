@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+    <section id="plugin.program.flowfavmanager">
+        <category id="advanced" label="30028">
+            <group id="1">
+                <setting id="enable_audit_log" type="boolean" label="30029">
+                    <level>0</level>
+                    <default>false</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="enable_global_context_menu" type="boolean" label="30458">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+            </group>
+
+            <group id="2" label="30472">
+                <setting id="web_remote_port" type="integer" label="30473">
+                    <level>0</level>
+                    <default>8080</default>
+                    <control type="edit" format="integer"/>
+                </setting>
+                <setting id="web_remote_enabled" type="boolean">
+                    <level>4</level>
+                    <default>false</default>
+                </setting>
+            </group>
+
+            <group id="3">
+                <!-- Editor visual settings — managed via code menu, hidden from native dialog -->
+                <setting id="view_mode" type="integer">
+                    <level>4</level>
+                    <default>0</default>
+                </setting>
+                <setting id="icon_scale" type="integer">
+                    <level>4</level>
+                    <default>0</default>
+                </setting>
+                <setting id="text_scale" type="integer">
+                    <level>4</level>
+                    <default>0</default>
+                </setting>
+                <setting id="colorBackground" type="integer">
+                    <level>4</level>
+                    <default>0</default>
+                </setting>
+                <setting id="colorSelection" type="integer">
+                    <level>4</level>
+                    <default>0</default>
+                </setting>
+                <setting id="colorMultiselect" type="integer">
+                    <level>4</level>
+                    <default>0</default>
+                </setting>
+                <setting id="colorblindMode" type="boolean">
+                    <level>4</level>
+                    <default>false</default>
+                </setting>
+                <setting id="easter_egg" type="boolean">
+                    <level>4</level>
+                    <default>false</default>
+                </setting>
+                <setting id="autofav_1_enabled" type="boolean">
+                    <level>4</level>
+                    <default>false</default>
+                </setting>
+                <setting id="autofav_1_title" type="string">
+                    <level>4</level>
+                    <default></default>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                </setting>
+                <setting id="autofav_1_cmd" type="string">
+                    <level>4</level>
+                    <default></default>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                </setting>
+                <setting id="autofav_1_delay" type="string">
+                    <level>4</level>
+                    <default>0</default>
+                </setting>
+                <setting id="autofav_2_enabled" type="boolean">
+                    <level>4</level>
+                    <default>false</default>
+                </setting>
+                <setting id="autofav_2_title" type="string">
+                    <level>4</level>
+                    <default></default>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                </setting>
+                <setting id="autofav_2_cmd" type="string">
+                    <level>4</level>
+                    <default></default>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                </setting>
+                <setting id="autofav_2_delay" type="string">
+                    <level>4</level>
+                    <default>0</default>
+                </setting>
+                <setting id="autofav_3_enabled" type="boolean">
+                    <level>4</level>
+                    <default>false</default>
+                </setting>
+                <setting id="autofav_3_title" type="string">
+                    <level>4</level>
+                    <default></default>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                </setting>
+                <setting id="autofav_3_cmd" type="string">
+                    <level>4</level>
+                    <default></default>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                </setting>
+                <setting id="autofav_3_delay" type="string">
+                    <level>4</level>
+                    <default>0</default>
+                </setting>
+            </group>
+        </category>
+    </section>
+</settings>

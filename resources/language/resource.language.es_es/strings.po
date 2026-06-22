@@ -1,0 +1,2081 @@
+# Kodi Media Center
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Flow FavManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "Editor"
+msgstr "Editor"
+
+msgctxt "#30001"
+msgid "List Layout"
+msgstr "Diseño del Listado"
+
+msgctxt "#30002"
+msgid "Simple List"
+msgstr "Lista Simple"
+
+msgctxt "#30003"
+msgid "Grid (Thumbnails)"
+msgstr "Cuadrícula (Miniaturas)"
+
+msgctxt "#30004"
+msgid "Icon Scale"
+msgstr "Escala de Iconos"
+
+msgctxt "#30005"
+msgid "Default"
+msgstr "Defecto"
+
+msgctxt "#30006"
+msgid "Large"
+msgstr "Grande"
+
+msgctxt "#30007"
+msgid "Text Size"
+msgstr "Tamaño de Texto"
+
+msgctxt "#30008"
+msgid "Small"
+msgstr "Pequeño"
+
+msgctxt "#30009"
+msgid "Medium"
+msgstr "Mediano"
+
+msgctxt "#30010"
+msgid "Colors & Accessibility"
+msgstr "Colores y Accesibilidad"
+
+msgctxt "#30011"
+msgid "Background Color"
+msgstr "Color de Fondo"
+
+msgctxt "#30012"
+msgid "Dark (Default)"
+msgstr "Oscuro (Por defecto)"
+
+msgctxt "#30013"
+msgid "Light"
+msgstr "Claro"
+
+msgctxt "#30014"
+msgid "Neutral Gray"
+msgstr "Gris Neutro"
+
+msgctxt "#30015"
+msgid "Deep Blue"
+msgstr "Azul Profundo"
+
+msgctxt "#30016"
+msgid "Selection Color"
+msgstr "Color de Selección"
+
+msgctxt "#30017"
+msgid "Cyan (Default)"
+msgstr "Cyan (Por defecto)"
+
+msgctxt "#30018"
+msgid "Green"
+msgstr "Verde"
+
+msgctxt "#30019"
+msgid "Yellow"
+msgstr "Amarillo"
+
+msgctxt "#30020"
+msgid "Red"
+msgstr "Rojo"
+
+msgctxt "#30021"
+msgid "Orange"
+msgstr "Naranja"
+
+msgctxt "#30022"
+msgid "Violet"
+msgstr "Violeta"
+
+msgctxt "#30023"
+msgid "Multiselect Color"
+msgstr "Color de Multiselección"
+
+msgctxt "#30024"
+msgid "Green (Default)"
+msgstr "Verde (Por defecto)"
+
+msgctxt "#30025"
+msgid "Magenta"
+msgstr "Magenta"
+
+msgctxt "#30026"
+msgid "White"
+msgstr "Blanco"
+
+msgctxt "#30027"
+msgid "Colorblind Mode (High Contrast)"
+msgstr "Modo Daltónicos (Alto Contraste)"
+
+msgctxt "#30028"
+msgid "Advanced"
+msgstr "Avanzado"
+
+msgctxt "#30029"
+msgid "Enable Audit Log (Security)"
+msgstr "Habilitar Log de Auditoría (Seguridad)"
+
+msgctxt "#30030"
+msgid "Flow FavManager"
+msgstr "Flow FavManager"
+
+msgctxt "#30031"
+msgid "Could not retrieve item information"
+msgstr "No se pudo obtener la información del elemento"
+
+msgctxt "#30032"
+msgid "No Profiles"
+msgstr "Sin Perfiles"
+
+msgctxt "#30033"
+msgid "No created profiles found.\nDo you want to create one now?"
+msgstr "No tienes ningún perfil creado.\n¿Quieres crear uno ahora?"
+
+msgctxt "#30034"
+msgid "My Favorites"
+msgstr "Mis Favoritos"
+
+msgctxt "#30035"
+msgid "New profile name"
+msgstr "Nombre del nuevo perfil"
+
+msgctxt "#30036"
+msgid "Profile Created"
+msgstr "Perfil Creado"
+
+msgctxt "#30037"
+msgid "'{}' added to '{}'"
+msgstr "'{}' añadido a '{}'"
+
+msgctxt "#30038"
+msgid "[COLOR lime]+ Create New Profile[/COLOR]"
+msgstr "[COLOR lime]+ Crear Nuevo Perfil[/COLOR]"
+
+msgctxt "#30039"
+msgid "Add '{}...' to:"
+msgstr "Añadir '{}...' a:"
+
+msgctxt "#30040"
+msgid "Already Exists"
+msgstr "Ya Existe"
+
+msgctxt "#30041"
+msgid "'{}' is already in '{}'"
+msgstr "'{}' ya está en '{}'"
+
+msgctxt "#30042"
+msgid "Added"
+msgstr "Añadido"
+
+msgctxt "#30043"
+msgid "'{}' → '{}'"
+msgstr "'{}' → '{}'"
+
+msgctxt "#30044"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "#30045"
+msgid "Failed to save profile"
+msgstr "Fallo al guardar el perfil"
+
+msgctxt "#30046"
+msgid "Could not add to profile"
+msgstr "No se pudo añadir al perfil"
+
+msgctxt "#30047"
+msgid "Incorrect PIN"
+msgstr "PIN Incorrecto"
+
+msgctxt "#30048"
+msgid "{} attempts remaining"
+msgstr "Te quedan {} intentos"
+
+msgctxt "#30049"
+msgid "Incorrect PIN - Recovery"
+msgstr "PIN Incorrecto - Recuperación"
+
+msgctxt "#30050"
+msgid "Answer Security Question"
+msgstr "Responder Pregunta de Seguridad"
+
+msgctxt "#30051"
+msgid "Cancel (Close Addon)"
+msgstr "Cancelar (Cerrar Addon)"
+
+msgctxt "#30052"
+msgid "Question not set?"
+msgstr "¿Pregunta no configurada?"
+
+msgctxt "#30053"
+msgid "No security question set.\n\nYou can create a 'reset_pass.txt' file in the addon folder to reset."
+msgstr "No hay pregunta de seguridad configurada.\n\nPuedes crear un archivo 'reset_pass.txt' en la carpeta del addon para resetear."
+
+msgctxt "#30054"
+msgid "Access Recovered"
+msgstr "Acceso Recuperado"
+
+msgctxt "#30055"
+msgid "Correct answer.\nProtection is temporarily disabled.\nRemember to set a new PIN."
+msgstr "Respuesta correcta.\nLa protección se ha desactivado temporalmente.\nRecuerda configurar un nuevo PIN."
+
+msgctxt "#30056"
+msgid "Incorrect Answer"
+msgstr "Respuesta Incorrecta"
+
+msgctxt "#30057"
+msgid "Could not verify.\n\nIf you forgot both, create an empty file named 'reset_pass.txt' in:\n"
+msgstr "No se ha podido verificar.\n\nSi olvidaste todo, crea un archivo vacío llamado 'reset_pass.txt' en:\n"
+
+msgctxt "#30058"
+msgid "Security and Password"
+msgstr "Seguridad y Contraseña"
+
+msgctxt "#30059"
+msgid "ENABLED"
+msgstr "Activada"
+
+msgctxt "#30060"
+msgid "Disabled"
+msgstr "Desactivada"
+
+msgctxt "#30061"
+msgid "Status: {}"
+msgstr "Estado: {}"
+
+msgctxt "#30062"
+msgid "Change PIN"
+msgstr "Cambiar PIN"
+
+msgctxt "#30063"
+msgid "Set PIN"
+msgstr "Establecer PIN"
+
+msgctxt "#30064"
+msgid "Set Security Question"
+msgstr "Configurar Pregunta de Seguridad"
+
+msgctxt "#30065"
+msgid "Enable Protection"
+msgstr "Activar Protección"
+
+msgctxt "#30066"
+msgid "Disable Protection"
+msgstr "Desactivar Protección"
+
+msgctxt "#30067"
+msgid "« Back"
+msgstr "« Volver"
+
+msgctxt "#30068"
+msgid "Security Information"
+msgstr "Información de Seguridad"
+
+msgctxt "#30069"
+msgid "PIN protection prevents unauthorized persons from accessing the addon.\n\n"
+msgstr "La protección por PIN evita que personas no autorizadas accedan al addon.\n\n"
+
+msgctxt "#30070"
+msgid "Question set: {}"
+msgstr "Pregunta configurada: {}"
+
+msgctxt "#30071"
+msgid "Yes"
+msgstr "Sí"
+
+msgctxt "#30072"
+msgid "No"
+msgstr "No"
+
+msgctxt "#30073"
+msgid "To recover access if you forget the PIN:\n1. Answer the security question.\n2. Or create a 'reset_pass.txt' file in:\n"
+msgstr "Para recuperar acceso si olvidas el PIN:\n1. Responde la pregunta de seguridad.\n2. O crea un archivo 'reset_pass.txt' en:\n"
+
+msgctxt "#30074"
+msgid "Enter new PIN (recommended numbers)"
+msgstr "Introduce el nuevo PIN (números recomendados)"
+
+msgctxt "#30075"
+msgid "Confirm PIN"
+msgstr "Confirma el PIN"
+
+msgctxt "#30076"
+msgid "PIN Saved"
+msgstr "PIN Guardado"
+
+msgctxt "#30077"
+msgid "Remember to configure security question"
+msgstr "Recuerda configurar la pregunta de seguridad"
+
+msgctxt "#30078"
+msgid "PINs do not match"
+msgstr "Los PIN no coinciden"
+
+msgctxt "#30079"
+msgid "Choose a security question"
+msgstr "Elige una pregunta de seguridad"
+
+msgctxt "#30080"
+msgid "[Write custom question]"
+msgstr "[Escribir pregunta personalizada]"
+
+msgctxt "#30081"
+msgid "Write your question"
+msgstr "Escribe tu pregunta"
+
+msgctxt "#30082"
+msgid "Answer (case insensitive)"
+msgstr "Respuesta (no distingue mayúsculas)"
+
+msgctxt "#30083"
+msgid "Saved"
+msgstr "Guardado"
+
+msgctxt "#30084"
+msgid "Security question set"
+msgstr "Pregunta de seguridad configurada"
+
+msgctxt "#30085"
+msgid "Set a PIN"
+msgstr "Configura un PIN"
+
+msgctxt "#30086"
+msgid "You must set a PIN before enabling protection."
+msgstr "Primero debes establecer un PIN antes de activar la protección."
+
+msgctxt "#30087"
+msgid "Warning"
+msgstr "Aviso"
+
+msgctxt "#30088"
+msgid "You haven't set a security question.\nIf you forget the PIN, you can only recover access via the rescue file.\n\nEnable anyway?"
+msgstr "No has configurado una pregunta de seguridad.\nSi olvidas el PIN, solo podrás recuperar acceso con el archivo de rescate.\n\n¿Activar de todos modos?"
+
+msgctxt "#30089"
+msgid "Protection Enabled"
+msgstr "Protección Activada"
+
+msgctxt "#30090"
+msgid "PIN will be asked upon entry"
+msgstr "Se pedirá PIN al entrar"
+
+msgctxt "#30091"
+msgid "Protection Disabled"
+msgstr "Protección Desactivada"
+
+msgctxt "#30092"
+msgid "Open access"
+msgstr "Acceso libre"
+
+msgctxt "#30093"
+msgid "Dynamic Icons"
+msgstr "Iconos Dinámicos"
+
+msgctxt "#30094"
+msgid "{} icons recovered"
+msgstr "Se han recuperado {} iconos"
+
+msgctxt "#30095"
+msgid "Reset"
+msgstr "Restablecer"
+
+msgctxt "#30096"
+msgid "Discard all changes and return to original state?"
+msgstr "¿Descartar todos los cambios y volver al estado original?"
+
+msgctxt "#30097"
+msgid "Reset"
+msgstr "Restablecido"
+
+msgctxt "#30098"
+msgid "Changes discarded"
+msgstr "Cambios descartados"
+
+msgctxt "#30099"
+msgid "Auto-Group"
+msgstr "Auto-Agrupar"
+
+msgctxt "#30100"
+msgid "This will reorganize your list by grouping favorites from the same addon together (alphabetically).\nNo separators will be created.\nProceed?"
+msgstr "Esto reorganizará tu lista agrupando los favoritos del mismo addon juntos (ordenados alfabéticamente).\nNo se crearán separadores.\n¿Proceder?"
+
+msgctxt "#30101"
+msgid "Grouped"
+msgstr "Agrupado"
+
+msgctxt "#30102"
+msgid "List sorted by Type/Addon"
+msgstr "Lista ordenada por Tipo/Addon"
+
+msgctxt "#30103"
+msgid "Help & Instructions"
+msgstr "Ayuda e Instrucciones"
+
+msgctxt "#30104"
+msgid "[B]CURRENT MODE: Swap[/B]\nSelect a favorite then another.\nThey will swap places."
+msgstr "[B]MODO ACTUAL: Intercambiar[/B]\nSelecciona un favorito y luego otro.\nSe intercambiarán de lugar entre sí."
+
+msgctxt "#30105"
+msgid "[B]CURRENT MODE: Insert Before[/B]\nSelect an item and then the destination.\nThe first will move just [B]before[/B] the second."
+msgstr "[B]MODO ACTUAL: Insertar Antes[/B]\nSelecciona un item y luego el destino.\nEl primero se moverá justo [B]antes[/B] del segundo."
+
+msgctxt "#30106"
+msgid "[B]CURRENT MODE: Insert After[/B]\nSelect an item then the destination.\nThe first will move just [B]after[/B] the second."
+msgstr "[B]MODO ACTUAL: Insertar Después[/B]\nSelecciona un item y luego el destino.\nEl primero se moverá justo [B]después[/B] del segundo."
+
+msgctxt "#30107"
+msgid "[B]CURRENT MODE: Arrow Move[/B]\nSelect a favorite and use UP/DOWN keys to move it.\nPress the SAME favorite to release it."
+msgstr "[B]MODO ACTUAL: Mover con Flechas[/B]\nSelecciona un favorito y usa las flechas ARRIBA/ABAJO para moverlo.\nPulsa el MISMO favorito para soltarlo."
+
+msgctxt "#30108"
+msgid "\n\n[B]CHANGE MODE:[/B]\nUse the sidebar button to rotate between these behaviors according to your preference."
+msgstr "\n\n[B]CAMBIAR MODO:[/B]\nUsa el botón del menú lateral para rotar entre estos comportamientos según tu preferencia."
+
+msgctxt "#30109"
+msgid "\n\n[B]CONTEXT MENU[/B] (extra options):"
+msgstr "\n\n[B]MENÚ CONTEXTUAL[/B] (opciones extra):"
+
+msgctxt "#30110"
+msgid "\n- PC: Right Click or 'C' key\n- Remote/TV: 'Menu' button\n- Touch: Long Press"
+msgstr "\n- PC: Clic derecho o tecla 'C'\n- Mando/TV: Botón 'Menú'\n- Táctil: Pulsación Larga"
+
+msgctxt "#30111"
+msgid "\n\n[B]TIPS:[/B]\n- [I]Multiselect[/I]: select multiple to move in block\n- [I]Carousel[/I]: In arrow mode, reaching the end jumps to the beginning"
+msgstr "\n\n[B]TIPS:[/B]\n- [I]Multiselección[/I]: selecciona varios para mover en bloque\n- [I]Carrusel[/I]: En modo flechas, al llegar al final saltas al principio"
+
+msgctxt "#30112"
+msgid "Rename"
+msgstr "Renombrar"
+
+msgctxt "#30113"
+msgid "Edit Command"
+msgstr "Editar Comando"
+
+msgctxt "#30114"
+msgid "Change Icon"
+msgstr "Cambiar Icono"
+
+msgctxt "#30115"
+msgid "Change Color"
+msgstr "Cambiar Color"
+
+msgctxt "#30116"
+msgid "Change Format"
+msgstr "Cambiar Formato"
+
+msgctxt "#30117"
+msgid "Move"
+msgstr "Mover"
+
+msgctxt "#30118"
+msgid "Duplicate"
+msgstr "Duplicar"
+
+msgctxt "#30119"
+msgid "Delete"
+msgstr "Eliminar"
+
+msgctxt "#30120"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "#30121"
+msgid "Duplicated"
+msgstr "Duplicado"
+
+msgctxt "#30122"
+msgid "Move item"
+msgstr "Mover elemento"
+
+msgctxt "#30123"
+msgid "↑ Move 1 up"
+msgstr "↑ Mover 1 arriba"
+
+msgctxt "#30124"
+msgid "↑↑ Move 5 up"
+msgstr "↑↑ Mover 5 arriba"
+
+msgctxt "#30125"
+msgid "↑↑↑ Move 10 up"
+msgstr "↑↑↑ Mover 10 arriba"
+
+msgctxt "#30126"
+msgid "^^^ [B]TO THE TOP[/B]"
+msgstr "^^^ [B]AL PRINCIPIO[/B]"
+
+msgctxt "#30127"
+msgid "↓ Move 1 down"
+msgstr "↓ Mover 1 abajo"
+
+msgctxt "#30128"
+msgid "↓↓ Move 5 down"
+msgstr "↓↓ Mover 5 abajo"
+
+msgctxt "#30129"
+msgid "↓↓↓ Move 10 down"
+msgstr "↓↓↓ Mover 10 abajo"
+
+msgctxt "#30130"
+msgid "vvv [B]TO THE BOTTOM[/B]"
+msgstr "vvv [B]AL FINAL[/B]"
+
+msgctxt "#30131"
+msgid "Sort favorites"
+msgstr "Ordenar favoritos"
+
+msgctxt "#30132"
+msgid "Sort A → Z"
+msgstr "Ordenar A → Z"
+
+msgctxt "#30133"
+msgid "Sort Z → A"
+msgstr "Ordenar Z → A"
+
+msgctxt "#30134"
+msgid "Reverse order (flip list)"
+msgstr "Invertir orden (voltear lista)"
+
+msgctxt "#30135"
+msgid "Group by TYPE / ADDON"
+msgstr "Agrupar por TIPO / ADDON"
+
+msgctxt "#30136"
+msgid "Sorted A → Z"
+msgstr "Ordenado A → Z"
+
+msgctxt "#30137"
+msgid "Sorted Z → A"
+msgstr "Ordenado Z → A"
+
+msgctxt "#30138"
+msgid "Order reversed"
+msgstr "Orden invertido"
+
+msgctxt "#30139"
+msgid "Sorted"
+msgstr "Ordenado"
+
+msgctxt "#30140"
+msgid "Profile Saved"
+msgstr "Perfil Guardado"
+
+msgctxt "#30141"
+msgid "Saved as '{}'"
+msgstr "Guardado como '{}'"
+
+msgctxt "#30142"
+msgid "Select Color"
+msgstr "Selecciona Color"
+
+msgctxt "#30143"
+msgid "No color"
+msgstr "Sin color"
+
+msgctxt "#30144"
+msgid "White"
+msgstr "Blanco"
+
+msgctxt "#30145"
+msgid "Yellow"
+msgstr "Amarillo"
+
+msgctxt "#30146"
+msgid "Orange"
+msgstr "Naranja"
+
+msgctxt "#30147"
+msgid "Red"
+msgstr "Rojo"
+
+msgctxt "#30148"
+msgid "Pink"
+msgstr "Rosa"
+
+msgctxt "#30149"
+msgid "Violet"
+msgstr "Violeta"
+
+msgctxt "#30150"
+msgid "Blue"
+msgstr "Azul"
+
+msgctxt "#30151"
+msgid "Cyan"
+msgstr "Cyan"
+
+msgctxt "#30152"
+msgid "Green"
+msgstr "Verde"
+
+msgctxt "#30153"
+msgid "Lime"
+msgstr "Lima"
+
+msgctxt "#30154"
+msgid "Select Format"
+msgstr "Selecciona Formato"
+
+msgctxt "#30155"
+msgid "No format"
+msgstr "Sin formato"
+
+msgctxt "#30156"
+msgid "Bold"
+msgstr "Negrita"
+
+msgctxt "#30157"
+msgid "Italic"
+msgstr "Cursiva"
+
+msgctxt "#30158"
+msgid "Bold + Italic"
+msgstr "Negrita + Cursiva"
+
+msgctxt "#30159"
+msgid "UPPERCASE"
+msgstr "MAYÚSCULAS"
+
+msgctxt "#30160"
+msgid "Rename Favorite"
+msgstr "Renombrar Favorito"
+
+msgctxt "#30161"
+msgid "Edit Command / Path"
+msgstr "Editar Comando / Ruta"
+
+msgctxt "#30162"
+msgid "Updated"
+msgstr "Actualizado"
+
+msgctxt "#30163"
+msgid "Command changed"
+msgstr "Comando cambiado"
+
+msgctxt "#30164"
+msgid "Separator only"
+msgstr "Solo el separador"
+
+msgctxt "#30165"
+msgid "Separator and all its content"
+msgstr "Separador y todo su contenido"
+
+msgctxt "#30166"
+msgid "Delete Section: {}"
+msgstr "Eliminar Sección: {}"
+
+msgctxt "#30167"
+msgid "Confirm"
+msgstr "Confirmar"
+
+msgctxt "#30168"
+msgid "Delete '{}'?"
+msgstr "¿Eliminar '{}'?"
+
+msgctxt "#30169"
+msgid "Unsaved changes"
+msgstr "Cambios sin guardar"
+
+msgctxt "#30170"
+msgid "Save and Exit"
+msgstr "Guardar y Salir"
+
+msgctxt "#30171"
+msgid "Save and Update"
+msgstr "Guardar y Actualizar"
+
+msgctxt "#30172"
+msgid "Exit without Saving (Discard Changes)"
+msgstr "Salir sin Guardar (Descartar Cambios)"
+
+msgctxt "#30173"
+msgid "Automatically assigned icons detected for some favorites.\nDo you want to keep these new icons?"
+msgstr "Se han detectado y asignado iconos automáticamente para algunos favoritos.\n¿Quieres conservar estos nuevos iconos?"
+
+msgctxt "#30174"
+msgid "Keep"
+msgstr "Conservar"
+
+msgctxt "#30175"
+msgid "Discard"
+msgstr "Descartar"
+
+msgctxt "#30176"
+msgid "Icons"
+msgstr "Iconos"
+
+msgctxt "#30177"
+msgid "{} icons discarded"
+msgstr "Se han descartado {} iconos"
+
+msgctxt "#30178"
+msgid "Saved Successfully"
+msgstr "Guardado Correctamente"
+
+msgctxt "#30179"
+msgid "Could not save."
+msgstr "No se pudo guardar."
+
+msgctxt "#30180"
+msgid "[B]Custom / Manual[/B] (Write command)"
+msgstr "[B]Personalizado / Manual[/B] (Escribir comando)"
+
+msgctxt "#30181"
+msgid "Installed Addons (Video and Programs)"
+msgstr "Addons Instalados (Video y Programas)"
+
+msgctxt "#30182"
+msgid "What do you want to add?"
+msgstr "¿Qué quieres añadir?"
+
+msgctxt "#30183"
+msgid "Favorite Name"
+msgstr "Nombre del Favorito"
+
+msgctxt "#30184"
+msgid "Path or Command (Ex: ActivateWindow(...))"
+msgstr "Ruta o Comando (Ej: ActivateWindow(...))"
+
+msgctxt "#30185"
+msgid "Select Image"
+msgstr "Seleccionar Imagen"
+
+msgctxt "#30186"
+msgid "No addons found"
+msgstr "No se encontraron addons"
+
+msgctxt "#30187"
+msgid "Select Addon"
+msgstr "Selecciona Addon"
+
+msgctxt "#30188"
+msgid "This category is empty"
+msgstr "Esta categoría está vacía"
+
+msgctxt "#30189"
+msgid "Select from {}"
+msgstr "Selecciona de {}"
+
+msgctxt "#30190"
+msgid "Attention"
+msgstr "Atención"
+
+msgctxt "#30191"
+msgid "Favorite without path"
+msgstr "Favorito sin ruta"
+
+msgctxt "#30192"
+msgid "Added"
+msgstr "Añadido"
+
+msgctxt "#30193"
+msgid "Section / Separator Name"
+msgstr "Nombre de la Sección / Separador"
+
+msgctxt "#30194"
+msgid "Gold (Default)"
+msgstr "Oro (Por defecto)"
+
+msgctxt "#30195"
+msgid "Gray"
+msgstr "Gris"
+
+msgctxt "#30196"
+msgid "Separator Color"
+msgstr "Color del Separador"
+
+msgctxt "#30197"
+msgid "Nothing selected"
+msgstr "No has seleccionado nada"
+
+msgctxt "#30198"
+msgid "Move to..."
+msgstr "Mover a..."
+
+msgctxt "#30199"
+msgid "Click on the destination position"
+msgstr "Haz Click en la posición de destino"
+
+msgctxt "#30200"
+msgid "Before (At the top)"
+msgstr "Antes (Al principio)"
+
+msgctxt "#30201"
+msgid "After"
+msgstr "Después"
+
+msgctxt "#30202"
+msgid "Moved"
+msgstr "Movido"
+
+msgctxt "#30203"
+msgid "{} items"
+msgstr "{} elementos"
+
+msgctxt "#30204"
+msgid "Delete {} selected items?"
+msgstr "¿Eliminar {} elementos seleccionados?"
+
+msgctxt "#30205"
+msgid "Color for {} items"
+msgstr "Color para {} items"
+
+msgctxt "#30206"
+msgid "Select New Image"
+msgstr "Seleccionar Nueva Imagen"
+
+msgctxt "#30207"
+msgid "Icon"
+msgstr "Icono"
+
+msgctxt "#30208"
+msgid "Image updated"
+msgstr "Imagen actualizada"
+
+msgctxt "#30209"
+msgid "Add Item / Addon"
+msgstr "Añadir Elemento / Addon"
+
+msgctxt "#30210"
+msgid "Add Separator"
+msgstr "Añadir Separador"
+
+msgctxt "#30211"
+msgid "Add..."
+msgstr "Añadir..."
+
+msgctxt "#30212"
+msgid "Save as New Profile"
+msgstr "Guardar como Perfil Nuevo"
+
+msgctxt "#30213"
+msgid "Create backup (XML)"
+msgstr "Crear copia de seguridad (XML)"
+
+msgctxt "#30214"
+msgid "Restore from backup (XML)"
+msgstr "Restaurar desde backup (XML)"
+
+msgctxt "#30215"
+msgid "Discard current changes"
+msgstr "Descartar cambios actuales"
+
+msgctxt "#30216"
+msgid "Backup / Restore"
+msgstr "Backup / Restaurar"
+
+msgctxt "#30217"
+msgid "Backup name (no extension)"
+msgstr "Nombre del backup (sin extensión)"
+
+msgctxt "#30218"
+msgid "Select folder to save"
+msgstr "Selecciona carpeta para guardar"
+
+msgctxt "#30219"
+msgid "Backup Created"
+msgstr "Copia de Seguridad Creada"
+
+msgctxt "#30220"
+msgid "Error saving"
+msgstr "Error al guardar"
+
+msgctxt "#30221"
+msgid "Name of your first pet?"
+msgstr "¿Nombre de tu primera mascota?"
+
+msgctxt "#30222"
+msgid "City where you were born?"
+msgstr "¿Ciudad donde naciste?"
+
+msgctxt "#30223"
+msgid "Mother's birth year?"
+msgstr "¿Año de nacimiento de tu madre?"
+
+msgctxt "#30224"
+msgid "Name of childhood best friend?"
+msgstr "¿Nombre de tu mejor amigo de infancia?"
+
+msgctxt "#30225"
+msgid "Favorite food?"
+msgstr "¿Tu comida favorita?"
+
+msgctxt "#30226"
+msgid "Security Reset"
+msgstr "Seguridad Reseteada"
+
+msgctxt "#30227"
+msgid "Recovery file detected.\nPassword has been removed.\nYou can set a new one in Settings."
+msgstr "Se ha detectado el archivo de recuperación.\nLa contraseña ha sido eliminada.\nPuedes configurar una nueva en Ajustes."
+
+msgctxt "#30228"
+msgid "Installed Addons"
+msgstr "Addons Instalados"
+
+msgctxt "#30229"
+msgid "Gold (Default)"
+msgstr "Oro (Por defecto)"
+
+msgctxt "#30230"
+msgid "Change Icon"
+msgstr "Cambiar Icono"
+
+msgctxt "#30231"
+msgid "Change Color"
+msgstr "Cambiar Color"
+
+msgctxt "#30232"
+msgid "Change Format"
+msgstr "Cambiar Formato"
+
+msgctxt "#30233"
+msgid "Move"
+msgstr "Mover"
+
+msgctxt "#30234"
+msgid "Duplicate"
+msgstr "Duplicar"
+
+msgctxt "#30235"
+msgid "[B]Custom / Manual[/B] (Write command)"
+msgstr "[B]Personalizado / Manual[/B] (Escribir comando)"
+
+msgctxt "#30236"
+msgid "Installed Addons (Video and Programs)"
+msgstr "Addons Instalados (Video y Programas)"
+
+msgctxt "#30237"
+msgid "Favourite Name"
+msgstr "Nombre del Favorito"
+
+msgctxt "#30238"
+msgid "No addons found"
+msgstr "No se encontraron addons"
+
+msgctxt "#30239"
+msgid "Select Addon"
+msgstr "Selecciona Addon"
+
+msgctxt "#30240"
+msgid "This category is empty"
+msgstr "Esta categoría está vacía"
+
+msgctxt "#30241"
+msgid "Select from "
+msgstr "Selecciona de "
+
+msgctxt "#30242"
+msgid "Added"
+msgstr "Añadido"
+
+msgctxt "#30243"
+msgid "Quick Editor"
+msgstr "Editor Rápido"
+
+msgctxt "#30244"
+msgid "Saved"
+msgstr "Guardado"
+
+msgctxt "#30245"
+msgid "Create Backup"
+msgstr "Crear Backup (Copia de Seguridad)"
+
+msgctxt "#30246"
+msgid "Restore from Backup"
+msgstr "Restaurar desde Backup"
+
+msgctxt "#30247"
+msgid "Backup"
+msgstr "Backup"
+
+msgctxt "#30248"
+msgid "No favourites to save."
+msgstr "No hay favoritos para guardar."
+
+msgctxt "#30249"
+msgid "Backup Created"
+msgstr "Backup Creado"
+
+msgctxt "#30250"
+msgid "Select backup file (.xml)"
+msgstr "Selecciona archivo de backup (.xml)"
+
+msgctxt "#30251"
+msgid "File not found."
+msgstr "Archivo no encontrado."
+
+msgctxt "#30252"
+msgid "The file does not seem to be a valid backup."
+msgstr "El archivo no parece ser un backup válido."
+
+msgctxt "#30253"
+msgid "The backup is empty."
+msgstr "El backup está vacío."
+
+msgctxt "#30254"
+msgid "Replace your current favourites with the backup?\n({} items)"
+msgstr "¿Reemplazar tus favoritos actuales con el backup?\n({} elementos)"
+
+msgctxt "#30255"
+msgid "Restored"
+msgstr "Restaurado"
+
+msgctxt "#30256"
+msgid "{} favourites loaded"
+msgstr "{} favoritos cargados"
+
+msgctxt "#30257"
+msgid "Could not load backup:"
+msgstr "No se pudo cargar el backup:"
+
+msgctxt "#30258"
+msgid "[B]+ Create Profile[/B] (Save current state)"
+msgstr "[B]+ Crear Perfil[/B] (Guardar estado actual)"
+
+msgctxt "#30259"
+msgid "[B]+ Import from XML[/B]"
+msgstr "[B]+ Importar desde XML[/B]"
+
+msgctxt "#30260"
+msgid "[B]+ Export current to XML[/B]"
+msgstr "[B]+ Exportar actuales a XML[/B]"
+
+msgctxt "#30261"
+msgid "Profile Manager"
+msgstr "Gestor de Perfiles"
+
+msgctxt "#30262"
+msgid "Profile Created"
+msgstr "Perfil Creado"
+
+msgctxt "#30263"
+msgid "Saved '{}'"
+msgstr "Guardado '{}'"
+
+msgctxt "#30264"
+msgid "No valid favourites found"
+msgstr "No se encontraron favoritos válidos"
+
+msgctxt "#30265"
+msgid "Imported Profile"
+msgstr "Perfil Importado"
+
+msgctxt "#30266"
+msgid "Name for the profile"
+msgstr "Nombre para el perfil"
+
+msgctxt "#30267"
+msgid "Imported"
+msgstr "Importado"
+
+msgctxt "#30268"
+msgid "{} favourites added"
+msgstr "{} favoritos añadidos"
+
+msgctxt "#30269"
+msgid "Import Error"
+msgstr "Error Importación"
+
+msgctxt "#30270"
+msgid "Exported"
+msgstr "Exportado"
+
+msgctxt "#30271"
+msgid "Error Exporting"
+msgstr "Error Exportando"
+
+msgctxt "#30272"
+msgid "[B]Load Profile[/B] (Replaces current favourites)"
+msgstr "[B]Cargar Perfil[/B] (Reemplaza favoritos actuales)"
+
+msgctxt "#30273"
+msgid "Export to XML"
+msgstr "Exportar a XML"
+
+msgctxt "#30274"
+msgid "Profile"
+msgstr "Perfil"
+
+msgctxt "#30275"
+msgid "Load Profile"
+msgstr "Cargar Perfil"
+
+msgctxt "#30276"
+msgid "SURE? This will replace your current favourites with those of '{}'.\nIt is recommended to make a backup first."
+msgstr "¿SEGURO? Esto reemplazará tus favoritos actuales por los de '{}'.\nSe recomienda hacer un backup antes."
+
+msgctxt "#30277"
+msgid "Profile Loaded"
+msgstr "Perfil Cargado"
+
+msgctxt "#30278"
+msgid "Favourites updated"
+msgstr "Favoritos actualizados"
+
+msgctxt "#30279"
+msgid "Rename profile"
+msgstr "Renombrar perfil"
+
+msgctxt "#30280"
+msgid "Renamed"
+msgstr "Renombrado"
+
+msgctxt "#30281"
+msgid "Now is '{}'"
+msgstr "Ahora es '{}'"
+
+msgctxt "#30282"
+msgid "Saved in {}"
+msgstr "Guardado en {}"
+
+msgctxt "#30283"
+msgid "Delete Profile"
+msgstr "Eliminar Perfil"
+
+msgctxt "#30284"
+msgid "Permanently delete profile '{}'?"
+msgstr "¿Borrar permanentemente el perfil '{}'?"
+
+msgctxt "#30285"
+msgid "Templates Editor"
+msgstr "Editor de Plantillas"
+
+msgctxt "#30286"
+msgid "Add New Category"
+msgstr "Añadir Nueva Categoría"
+
+msgctxt "#30287"
+msgid "Reset to defaults"
+msgstr "Restablecer a valores por defecto"
+
+msgctxt "#30288"
+msgid "Export Templates"
+msgstr "Exportar Plantillas"
+
+msgctxt "#30289"
+msgid "Import Templates"
+msgstr "Importar Plantillas"
+
+msgctxt "#30290"
+msgid "Name of the new category"
+msgstr "Nombre de la nueva categoría"
+
+msgctxt "#30292"
+msgid "A category with that name already exists"
+msgstr "Ya existe una categoría con ese nombre"
+
+msgctxt "#30293"
+msgid "Created"
+msgstr "Creada"
+
+msgctxt "#30294"
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+msgctxt "#30295"
+msgid "Delete this Category"
+msgstr "Eliminar esta Categoría"
+
+msgctxt "#30296"
+msgid "Delete category '{}' and all its items?"
+msgstr "¿Eliminar la categoría '{}' y todos sus elementos?"
+
+msgctxt "#30297"
+msgid "Deleted"
+msgstr "Eliminada"
+
+msgctxt "#30298"
+msgid "Item Name"
+msgstr "Nombre del elemento"
+
+msgctxt "#30299"
+msgid "Command or Path (Ex: ActivateWindow(...))"
+msgstr "Comando o Ruta (Ej: ActivateWindow(...))"
+
+msgctxt "#30300"
+msgid "Select Icon"
+msgstr "Seleccionar Icono"
+
+msgctxt "#30301"
+msgid "Type name (Ex: DefaultMovies.png)"
+msgstr "Escribir nombre (Ej: DefaultMovies.png)"
+
+msgctxt "#30302"
+msgid "Browse image in explorer"
+msgstr "Buscar imagen en explorador"
+
+msgctxt "#30303"
+msgid "Icon name"
+msgstr "Nombre del icono"
+
+msgctxt "#30304"
+msgid "Edit Name"
+msgstr "Editar Nombre"
+
+msgctxt "#30305"
+msgid "Edit Command"
+msgstr "Editar Comando"
+
+msgctxt "#30306"
+msgid "Edit Icon"
+msgstr "Editar Icono"
+
+msgctxt "#30307"
+msgid "New Name"
+msgstr "Nuevo Nombre"
+
+msgctxt "#30308"
+msgid "New Command"
+msgstr "Nuevo Comando"
+
+msgctxt "#30309"
+msgid "New Icon"
+msgstr "Nuevo Icono"
+
+msgctxt "#30310"
+msgid "Reset all templates to default values?\nThis will delete custom categories."
+msgstr "¿Restablecer todas las plantillas a los valores por defecto?\nEsto eliminará las categorías personalizadas."
+
+msgctxt "#30311"
+msgid "Templates"
+msgstr "Plantillas"
+
+msgctxt "#30312"
+msgid "Reset"
+msgstr "Restablecidas"
+
+msgctxt "#30313"
+msgid "Templates replaced"
+msgstr "Plantillas reemplazadas"
+
+msgctxt "#30314"
+msgid "Merged"
+msgstr "Fusionado"
+
+msgctxt "#30315"
+msgid "Categories added"
+msgstr "Categorías añadidas"
+
+msgctxt "#30316"
+msgid "How to import?"
+msgstr "¿Cómo importar?"
+
+msgctxt "#30317"
+msgid "Replace all"
+msgstr "Reemplazar todo"
+
+msgctxt "#30318"
+msgid "Merge (add new categories)"
+msgstr "Fusionar (añadir categorías nuevas)"
+
+msgctxt "#30319"
+msgid "File name (without extension)"
+msgstr "Nombre del archivo (sin extensión)"
+
+msgctxt "#30320"
+msgid "Search in all profiles"
+msgstr "Buscar en todos los perfiles"
+
+msgctxt "#30321"
+msgid "No results for '{}'"
+msgstr "Sin resultados para '{}'"
+
+msgctxt "#30322"
+msgid "No items matching your search were found."
+msgstr "No se encontraron elementos que coincidan con tu búsqueda."
+
+msgctxt "#30323"
+msgid "From profile:"
+msgstr "Desde perfil:"
+
+msgctxt "#30324"
+msgid "Explore My Profiles"
+msgstr "Explorar Mis Perfiles"
+
+msgctxt "#30325"
+msgid "Navigate through your profiles as folder. Useful for creating menus and Widgets in Skins."
+msgstr "Navega por tus perfiles como si fueran carpetas. Útil para crear menús y Widgets en Skins."
+
+msgctxt "#30326"
+msgid "Advanced Editor"
+msgstr "Editor Avanzado"
+
+msgctxt "#30327"
+msgid "Graphic editor with icon and color visualization."
+msgstr "Editor gráfico con visualización de iconos y colores."
+
+msgctxt "#30328"
+msgid "Quick Editor"
+msgstr "Editor Rápido"
+
+msgctxt "#30329"
+msgid "Simple and lightweight editor. Fast and compatible with all devices."
+msgstr "Editor simple y ligero. Rápido y compatible con todos los dispositivos."
+
+msgctxt "#30330"
+msgid "Reload Profile (See changes)"
+msgstr "Recargar Perfil (Ver cambios)"
+
+msgctxt "#30331"
+msgid "Reload Kodi profile to apply changes in main interface."
+msgstr "Recarga el perfil de Kodi para aplicar los cambios en la interfaz principal."
+
+msgctxt "#30332"
+msgid "Configuration"
+msgstr "Configuración"
+
+msgctxt "#30333"
+msgid "Visual editor and template editor settings."
+msgstr "Ajustes del editor visual y editor de plantillas."
+
+msgctxt "#30334"
+msgid "View Favourites Menu"
+msgstr "Ver Menú de Favoritos"
+
+msgctxt "#30335"
+msgid "Open Kodi favourites menu to see the result."
+msgstr "Abre el menú de favoritos de Kodi para ver el resultado."
+
+msgctxt "#30336"
+msgid "Back / Exit"
+msgstr "Volver / Salir"
+
+msgctxt "#30337"
+msgid "Return to Kodi."
+msgstr "Volver a Kodi."
+
+msgctxt "#30338"
+msgid "About Flow FavManager"
+msgstr "Acerca de Flow FavManager"
+
+msgctxt "#30339"
+msgid "Information."
+msgstr "Información."
+
+msgctxt "#30340"
+msgid "About"
+msgstr "Acerca de"
+
+msgctxt "#30341"
+msgid "For more information and projects visit:"
+msgstr "Para más información y proyectos visitar:"
+
+msgctxt "#30342"
+msgid "PROFILE MANAGER (Create / Import / Save)"
+msgstr "GESTOR DE PERFILES (Crear / Importar / Guardar)"
+
+msgctxt "#30343"
+msgid "Tools to create new profiles, import from XML or save current state."
+msgstr "Herramientas para crear nuevos perfiles, importar desde XML o guardar el estado actual."
+
+msgctxt "#30344"
+msgid "Widget View (Clean Navigation)"
+msgstr "Vista Widgets (Navegación Limpia)"
+
+msgctxt "#30345"
+msgid "Show your profiles without management buttons. Ideal for adding to your skin's home screen as a Widget."
+msgstr "Muestra tus perfiles sin botones de gestión. Ideal para añadir a la pantalla de inicio de tu skin como Widget."
+
+msgctxt "#30346"
+msgid "Add to Flow FavManager"
+msgstr "Añadir a Flow FavManager"
+
+msgctxt "#30347"
+msgid "Backup Created"
+msgstr "Backup Creado"
+
+msgctxt "#30348"
+msgid "Restored"
+msgstr "Restaurado"
+
+msgctxt "#30349"
+msgid "Press Confirm/Back to save."
+msgstr "Pulsa Confirmar/Volver para guardar."
+
+msgctxt "#30350"
+msgid "Behavior Changed"
+msgstr "Comportamiento Cambiado"
+
+msgctxt "#30351"
+msgid "Maintenance"
+msgstr "Mantenimiento"
+
+msgctxt "#30352"
+msgid "Updating textures..."
+msgstr "Actualizando texturas..."
+
+msgctxt "#30353"
+msgid "Log"
+msgstr "Log"
+
+msgctxt "#30354"
+msgid "Enabled"
+msgstr "Activado"
+
+msgctxt "#30355"
+msgid "Disabled"
+msgstr "Desactivado"
+
+msgctxt "#30356"
+msgid "History cleared"
+msgstr "Historial borrado"
+
+msgctxt "#30357"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "#30358"
+msgid "No log to clear"
+msgstr "No hay log que borrar"
+
+msgctxt "#30359"
+msgid "Could not read profile"
+msgstr "No se pudo leer el perfil"
+
+msgctxt "#30360"
+msgid "Deleted"
+msgstr "Eliminado"
+
+msgctxt "#30361"
+msgid "Profile deleted successfully"
+msgstr "Perfil borrado correctamente"
+
+msgctxt "#30362"
+msgid "Could not delete file"
+msgstr "No se pudo borrar el archivo"
+
+msgctxt "#30363"
+msgid "Renamed"
+msgstr "Renombrado"
+
+msgctxt "#30364"
+msgid "Profile updated"
+msgstr "Perfil actualizado"
+
+msgctxt "#30365"
+msgid "File not found."
+msgstr "Archivo no encontrado."
+
+msgctxt "#30366"
+msgid "File does not appear to be a valid backup."
+msgstr "El archivo no parece ser un backup válido."
+
+msgctxt "#30367"
+msgid "Could not load backup:"
+msgstr "No se pudo cargar el backup:"
+
+msgctxt "#30368"
+msgid "Quick Editor"
+msgstr "Editor Rápido"
+
+msgctxt "#30369"
+msgid "No favorites to edit."
+msgstr "No hay favoritos para editar."
+
+msgctxt "#30370"
+msgid "Empty Log"
+msgstr "Log Vacío"
+
+msgctxt "#30371"
+msgid "No events recorded yet."
+msgstr "No hay eventos registrados todavía."
+
+msgctxt "#30372"
+msgid "Log Does Not Exist"
+msgstr "Log No Existe"
+
+msgctxt "#30373"
+msgid "Enable logging and perform an action to generate events."
+msgstr "Activa el registro y realiza alguna acción para generar eventos."
+
+msgctxt "#30374"
+msgid "Could not read log:"
+msgstr "No se pudo leer el log:"
+
+msgctxt "#30375"
+msgid "Confirm"
+msgstr "Confirmar"
+
+msgctxt "#30376"
+msgid "Delete '{}'?"
+msgstr "¿Eliminar '{}'?"
+
+msgctxt "#30377"
+msgid "Clear image cache (Textures) before reloading?\nThis fixes issues with old icons."
+msgstr "¿Quieres borrar el caché de imágenes (Texturas) antes de recargar?\nEsto arregla problemas con iconos antiguos."
+
+msgctxt "#30378"
+msgid "Delete Log"
+msgstr "Borrar Log"
+
+msgctxt "#30379"
+msgid "Delete all audit history?"
+msgstr "¿Eliminar todo el historial de auditoría?"
+
+msgctxt "#30380"
+msgid "Delete Profile"
+msgstr "Eliminar Perfil"
+
+msgctxt "#30381"
+msgid "Are you sure you want to permanently delete this profile?"
+msgstr "¿Seguro que quieres eliminar este perfil para siempre?"
+
+msgctxt "#30382"
+msgid "New profile name"
+msgstr "Nuevo nombre del perfil"
+
+msgctxt "#30383"
+msgid "Backup name (without extension)"
+msgstr "Nombre del backup (sin extensión)"
+
+msgctxt "#30384"
+msgid "Select a Favorite to edit"
+msgstr "Selecciona un Favorito para editar"
+
+msgctxt "#30385"
+msgid "Action for: {}"
+msgstr "Acción para: {}"
+
+msgctxt "#30386"
+msgid "Audit Log"
+msgstr "Log de Auditoría"
+
+msgctxt "#30387"
+msgid "Critical Error"
+msgstr "Error Crítico"
+
+msgctxt "#30388"
+msgid "Select folder to save"
+msgstr "Selecciona carpeta para guardar"
+
+msgctxt "#30389"
+msgid "Select backup file (.xml)"
+msgstr "Selecciona archivo de backup (.xml)"
+
+msgctxt "#30390"
+msgid "Move Up 1"
+msgstr "↑ Subir 1 posición"
+
+msgctxt "#30391"
+msgid "Move Down 1"
+msgstr "↓ Bajar 1 posición"
+
+msgctxt "#30392"
+msgid "Move to Position..."
+msgstr "Mover a Posición..."
+
+msgctxt "#30393"
+msgid "Enter new position (1-{})"
+msgstr "Introduce la nueva posición (1-{})"
+
+msgctxt "#30394"
+msgid "Invalid Format"
+msgstr "Formato inválido"
+
+msgctxt "#30395"
+msgid "Audit Log: [COLOR lime]ON[/COLOR]"
+msgstr "Log de Auditoría: [COLOR lime]ON[/COLOR]"
+
+msgctxt "#30396"
+msgid "Audit Log: [COLOR gray]OFF[/COLOR]"
+msgstr "Log de Auditoría: [COLOR gray]OFF[/COLOR]"
+
+msgctxt "#30397"
+msgid "View Audit Log"
+msgstr "Ver Log de Auditoría"
+
+msgctxt "#30398"
+msgid "[Empty Folder]"
+msgstr "[Carpeta Vacía]"
+
+msgctxt "#30399"
+msgid "(Empty)"
+msgstr "(Vacío)"
+
+msgctxt "#30400"
+msgid "Movies"
+msgstr "Películas"
+
+msgctxt "#30401"
+msgid "TV (PVR)"
+msgstr "Televisión (PVR)"
+
+msgctxt "#30402"
+msgid "TV Guide (EPG)"
+msgstr "Guía TV (EPG)"
+
+msgctxt "#30403"
+msgid "Music"
+msgstr "Música"
+
+msgctxt "#30404"
+msgid "Pictures"
+msgstr "Imágenes"
+
+msgctxt "#30405"
+msgid "Power / Restart Menu"
+msgstr "Menú Apagar / Reiniciar"
+
+msgctxt "#30406"
+msgid "Update Library (Video)"
+msgstr "Actualizar Librería (Video)"
+
+msgctxt "#30407"
+msgid "Clean Library (Video)"
+msgstr "Limpiar Librería (Video)"
+
+msgctxt "#30408"
+msgid "Move Up 5"
+msgstr "↑↑ Subir 5 posiciones"
+
+msgctxt "#30409"
+msgid "Move Down 5"
+msgstr "↓↓ Bajar 5 posiciones"
+
+msgctxt "#30410"
+msgid "Move to Top"
+msgstr "^^^ Enviar al Inicio"
+
+msgctxt "#30411"
+msgid "Move to Bottom"
+msgstr "vvv Enviar al Final"
+
+msgctxt "#30412"
+msgid "Status: [COLOR {color}]{status}[/COLOR]"
+msgstr "Estado: [COLOR {color}]{status}[/COLOR]"
+
+msgctxt "#30413"
+msgid "ACTIVATED"
+msgstr "ACTIVADO"
+
+msgctxt "#30414"
+msgid "DEACTIVATED"
+msgstr "DESACTIVADO"
+
+msgctxt "#30415"
+msgid "Turn Log Off"
+msgstr "Desactivar Registro"
+
+msgctxt "#30416"
+msgid "Turn Log On"
+msgstr "Activar Registro"
+
+msgctxt "#30417"
+msgid "TV Shows"
+msgstr "Series"
+
+msgctxt "#30418"
+msgid "Home"
+msgstr "Inicio"
+
+msgctxt "#30419"
+msgid "Radio"
+msgstr "Radio"
+
+msgctxt "#30420"
+msgid "Music Videos"
+msgstr "Videoclips"
+
+msgctxt "#30421"
+msgid "Weather"
+msgstr "El Tiempo"
+
+msgctxt "#30422"
+msgid "Settings"
+msgstr "Ajustes"
+
+msgctxt "#30423"
+msgid "File Manager"
+msgstr "Gestor de Archivos"
+
+msgctxt "#30424"
+msgid "System Info"
+msgstr "Info del Sistema"
+
+msgctxt "#30425"
+msgid "Events / Log"
+msgstr "Eventos / Log"
+
+msgctxt "#30426"
+msgid "Addons (Browser)"
+msgstr "Addons (Explorador)"
+
+msgctxt "#30427"
+msgid "Reload Skin"
+msgstr "Recargar Skin"
+
+msgctxt "#30428"
+msgid "Skin Settings"
+msgstr "Ajustes de Skin"
+
+msgctxt "#30429"
+msgid "Created by RubénSDFA1laberot - v"
+msgstr "Creado por RubénSDFA1laberot - v"
+
+msgctxt "#30430"
+msgid "Back"
+msgstr "Volver"
+
+msgctxt "#30431"
+msgid "Swap Mode"
+msgstr "Modo Intercambiar"
+
+msgctxt "#30432"
+msgid "Insert Before"
+msgstr "Insertar Antes"
+
+msgctxt "#30433"
+msgid "Insert After"
+msgstr "Insertar Después"
+
+msgctxt "#30434"
+msgid "Arrow Mode"
+msgstr "Modo Flechas"
+
+msgctxt "#30435"
+msgid "Save / Exit"
+msgstr "Guardar / Salir"
+
+msgctxt "#30436"
+msgid "Save / Exit (*)"
+msgstr "Guardar / Salir (*)"
+
+msgctxt "#30437"
+msgid "Add..."
+msgstr "Añadir..."
+
+msgctxt "#30438"
+msgid "Multiselect Mode"
+msgstr "Modo Multiselección"
+
+msgctxt "#30439"
+msgid "Backup / Restore"
+msgstr "Backup / Restaurar"
+
+msgctxt "#30440"
+msgid "Sort"
+msgstr "Ordenar"
+
+msgctxt "#30441"
+msgid "Undo / Reset"
+msgstr "Deshacer"
+
+msgctxt "#30442"
+msgid "Help / Instructions"
+msgstr "Ayuda / Instrucciones"
+
+msgctxt "#30443"
+msgid "Exit (Discard)"
+msgstr "Salir (Descartar)"
+
+msgctxt "#30444"
+msgid "Move to..."
+msgstr "Mover a..."
+
+msgctxt "#30445"
+msgid "Change Color"
+msgstr "Cambiar Color"
+
+msgctxt "#30446"
+msgid "Delete Selected"
+msgstr "Eliminar Seleccionados"
+
+msgctxt "#30447"
+msgid "CANCEL / EXIT"
+msgstr "CANCELAR / SALIR"
+
+msgctxt "#30448"
+msgid "BULK ACTIONS"
+msgstr "ACCIONES EN MASA"
+
+msgctxt "#30449"
+msgid "Section"
+msgstr "Sección"
+
+msgctxt "#30450"
+msgid "Attention"
+msgstr "Atención"
+
+msgctxt "#30451"
+msgid "Hidden Credits"
+msgstr "Créditos Ocultos"
+
+msgctxt "#30452"
+msgid "Kodi Sections"
+msgstr "Secciones Kodi"
+
+msgctxt "#30453"
+msgid "System Commands"
+msgstr "Comandos Sistema"
+
+msgctxt "#30454"
+msgid "{} icons assigned"
+msgstr "{} iconos asignados"
+
+msgctxt "#30455"
+msgid " (copy)"
+msgstr " (copia)"
+
+msgctxt "#30456"
+msgid "Save as New Profile"
+msgstr "Guardar como Perfil Nuevo"
+
+msgctxt "#30457"
+msgid "Create a backup of your favorites or restore a previous one."
+msgstr "Crear una copia de seguridad de tus favoritos o restaurar una anterior."
+
+msgctxt "#30458"
+msgid "Show 'Add to Flow FavManager' in menus"
+msgstr "Mostrar 'Añadir a Flow FavManager' en menús"
+
+
+msgctxt "#30459"
+msgid "Auto-start"
+msgstr "Inicio automático"
+
+msgctxt "#30460"
+msgid "Launch favorites automatically when Kodi starts."
+msgstr "Lanza favoritos automáticamente al arrancar Kodi."
+
+msgctxt "#30461"
+msgid "No delay"
+msgstr "Sin espera"
+
+msgctxt "#30462"
+msgid "Delay before launching"
+msgstr "Retardo antes de lanzar"
+
+msgctxt "#30463"
+msgid "Select favorite to launch at startup"
+msgstr "Seleccionar favorito a lanzar al arrancar"
+
+msgctxt "#30464"
+msgid "Not configured"
+msgstr "Sin configurar"
+
+msgctxt "#30465"
+msgid "Change favorite"
+msgstr "Cambiar favorito"
+
+msgctxt "#30466"
+msgid "Change delay"
+msgstr "Cambiar retardo"
+
+msgctxt "#30467"
+msgid "Disable this slot"
+msgstr "Desactivar este slot"
+
+msgctxt "#30468"
+msgid "No favorites available"
+msgstr "No hay favoritos disponibles"
+
+msgctxt "#30469"
+msgid "Favorite {}"
+msgstr "Favorito {}"
+
+msgctxt "#30470"
+msgid "Auto-start configured"
+msgstr "Autoarranque configurado"
+
+msgctxt "#30471"
+msgid "Slot disabled"
+msgstr "Slot desactivado"
+
+msgctxt "#30472"
+msgid "Web Remote"
+msgstr "Control remoto web"
+
+msgctxt "#30473"
+msgid "Web remote port"
+msgstr "Puerto del control remoto web"
+
+msgctxt "#30474"
+msgid "Manage favourites from your phone's browser"
+msgstr "Gestiona tus favoritos desde el navegador del móvil"
+
+msgctxt "#30475"
+msgid "The server is off.\nYou need it running to manage your favourites from your phone's browser."
+msgstr "El servidor está apagado.\nLo necesitas activo para gestionar tus favoritos desde el navegador del móvil."
+
+msgctxt "#30476"
+msgid "Start"
+msgstr "Iniciar"
+
+msgctxt "#30477"
+msgid "Could not start (ports busy?)"
+msgstr "No se pudo iniciar (¿puertos ocupados?)"
+
+msgctxt "#30478"
+msgid "Open in browser"
+msgstr "Abrir en el navegador"
+
+msgctxt "#30479"
+msgid "Stop server"
+msgstr "Detener servidor"
+
+msgctxt "#30480"
+msgid "Open this address in your browser:\n[B]{}[/B]"
+msgstr "Abre esta dirección en tu navegador:\n[B]{}[/B]"
+
+msgctxt "#30481"
+msgid "Server stopped"
+msgstr "Servidor detenido"
+
+msgctxt "#30485"
+msgid "Add text in bulk ({0} items)"
+msgstr "Añadir texto en lote ({0} ítems)"
+
+msgctxt "#30486"
+msgid "Prefix"
+msgstr "Prefijo"
+
+msgctxt "#30487"
+msgid "Suffix"
+msgstr "Sufijo"
+
+msgctxt "#30488"
+msgid "Text to add"
+msgstr "Texto a añadir"
+
+msgctxt "#30489"
+msgid "Text color"
+msgstr "Color del texto"
+
+msgctxt "#30490"
+msgid "Prefix / Suffix"
+msgstr "Prefijo / Sufijo"
+
+msgctxt "#30491"
+msgid "Open loiolog (Advanced Log Viewer)"
+msgstr "Abrir loiolog (Visor avanzado)"
+
+msgctxt "#30492"
+msgid "{0} is already installed"
+msgstr "{0} ya está instalado"
+
+msgctxt "#30493"
+msgid "{0} reactivated successfully"
+msgstr "{0} reactivado correctamente"
+
+msgctxt "#30494"
+msgid "The 'requests' library is not available.\n\nPlease restart Kodi to load the new dependencies and try again."
+msgstr "La librería 'requests' no está disponible.\n\nPor favor, reinicia Kodi para que se carguen las nuevas dependencias e inténtalo de nuevo."
+
+msgctxt "#30495"
+msgid "Downloading {0} repository..."
+msgstr "Descargando repositorio de {0}..."
+
+msgctxt "#30496"
+msgid "Installing {0}..."
+msgstr "Instalando {0}..."
+
+msgctxt "#30497"
+msgid "Downloading repository..."
+msgstr "Descargando repositorio..."
+
+msgctxt "#30498"
+msgid "Extracting repository..."
+msgstr "Extrayendo repositorio..."
+
+msgctxt "#30499"
+msgid "Registering repository in Kodi..."
+msgstr "Registrando repositorio en Kodi..."
+
+msgctxt "#30500"
+msgid "Activating repository..."
+msgstr "Activando repositorio..."
+
+msgctxt "#30501"
+msgid "Updating repository index..."
+msgstr "Actualizando índice del repositorio..."
+
+msgctxt "#30502"
+msgid "Confirm installation of {0}"
+msgstr "Confirma la instalación de {0}"
+
+msgctxt "#30503"
+msgid "Waiting for {0} installation..."
+msgstr "Esperando instalación de {0}..."
+
+msgctxt "#30504"
+msgid "{0} installed successfully"
+msgstr "{0} instalado correctamente"
+
+msgctxt "#30505"
+msgid "Auto-installing {0} (fallback)..."
+msgstr "Instalación automática de {0} (fallback)..."
+
+msgctxt "#30506"
+msgid "The {0} repository was installed, but the addon installation did not complete.\n\nTo finish manually:\nAddons - Install from repository - {0} - Install"
+msgstr "El repositorio de {0} se instaló, pero la instalación del addon no se completó.\n\nPara terminarla manualmente:\nAddons - Instalar desde repositorio - {0} - Instalar"
+
+msgctxt "#30507"
+msgid "Installation error"
+msgstr "Error de instalación"
+
+msgctxt "#30508"
+msgid "Could not install {0} automatically.\n\nError: {1}\n\nYou may need to enable Unknown Sources in Settings."
+msgstr "No se pudo instalar {0} automáticamente.\n\nError: {1}\n\nPuede que necesites activar Orígenes desconocidos en Ajustes."
+
+
+msgctxt "#30510"
+msgid "Opening loiolog..."
+msgstr "Abriendo loiolog..."
+
+msgctxt "#30511"
+msgid "loiolog - installation"
+msgstr "loiolog - instalación"
+
+msgctxt "#30512"
+msgid "Auto installer (recommended)"
+msgstr "Instalador automático (recomendado)"
+
+msgctxt "#30513"
+msgid "View manual installation instructions"
+msgstr "Ver instrucciones de instalación manual"
+
+msgctxt "#30514"
+msgid "loiolog is not installed.\n\nDownload and install automatically?"
+msgstr "loiolog no está instalado.\n\n¿Descargar e instalar automáticamente?"
+
+msgctxt "#30515"
+msgid "loiolog instructions"
+msgstr "Instrucciones loiolog"
+
+msgctxt "#30516"
+msgid "[B]How to install loiolog[/B]\n\n1. Settings - System - Addons - enable Unknown Sources\n\n2. Settings - File Manager - Add source:\n   {0}\n\n3. Addons - Install from zip file - loiolog\n   repository.loiolog-x.x.x.zip\n\n4. Install from repository - loiolog - Program Addons - loiolog"
+msgstr "[B]Cómo instalar loiolog[/B]\n\n1. Ajustes - Sistema - Addons - activa Orígenes desconocidos\n\n2. Ajustes - Explorador de archivos - Añadir fuente:\n   {0}\n\n3. Addons - Instalar desde un archivo zip - loiolog\n   repository.loiolog-x.x.x.zip\n\n4. Instalar desde repositorio - loiolog - Addons de programa - loiolog"
+
+msgctxt "#30517"
+msgid "Add advanced editor to Kodi favourites"
+msgstr "Añadir editor avanzado a los favoritos de Kodi"
+
+msgctxt "#30518"
+msgid "Advanced editor added. Reload skin or restart Kodi to see it"
+msgstr "Editor avanzado añadido. Recarga la skin o reinicia Kodi para verlo"
+
+msgctxt "#30519"
+msgid "Advanced editor already in Kodi favourites"
+msgstr "El editor avanzado ya está en los favoritos de Kodi"
+
+msgctxt "#30520"
+msgid "Close"
+msgstr "Cerrar"
