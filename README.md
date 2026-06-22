@@ -88,8 +88,5 @@ Flow FavManager is a favourites manager for Kodi. The native interface offers li
 #### 13. Bug Fixes (v2.0.0)
 
 
-<br>
-
----
 
 
